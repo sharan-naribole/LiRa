@@ -1,2 +1,7 @@
-# LiRa
-LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink
+# LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink
+
+S. Naribole, S.Chen, E. Hang, E. Knightly, “LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink,” in Proceedings of IEEE SECON, San Diego, US, June 2017
+
+## Abstract
+
+Visible Light Communication (VLC) can dual pur- pose energy efficient LED-based lighting infrastructure for both illumination and data communication. Unfortunately, this dual- purposing is only inherent in the downlink direction, from infrastructure illumination sources to mobile devices. In this paper, we design, analyze, and implement LiRa, a Light-Radio WLAN that fuses light and radio capabilities in an integrated system design without requiring mobile devices to emit light or infrared. We design an uplink control channel for LiRa that is Wi-Fi compliant, has a controllable impact on airtime taken from legacy Wi-Fi clients, and efficiently scales with increasing VLC user population. We implement LiRa’s key components and perform extensive over-the-air experiments. While LiRa inherits uplink coverage from Wi-Fi, we demonstrate that a commercial infrared uplink is subject to deep rotational fades and outages. Finally, we show that in typical WLAN scenarios, LiRa reduces response delay up to a factor of 15 and reduces throughput degradation of legacy Wi-Fi from an excessive value of 74% to less than 3% compared to transmission of VLC feedback via 802.11 without LiRa.
